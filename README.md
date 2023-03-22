@@ -17,12 +17,12 @@
 
 ------------------------------------------------------------------------------
 ## To generate a public key:
-1- use the command "$ ssh-keygen -t rsa -b 4096"
-2- enter the file you want to save the key in
-3- you can enter a password for your key file or you can simply press enter for skiping that
-4- after that you open the content of the public key file, you will find it as a file.pub and to open it in the 
+- use the command "$ ssh-keygen -t rsa -b 4096"
+- enter the file you want to save the key in
+- you can enter a password for your key file or you can simply press enter for skiping that
+- after that you open the content of the public key file, you will find it as a file.pub and to open it in the 
    terminal use the command "$ cat file.pub"
-5- copy the content of the file and go to GitHub to create a new SSH key by typing the nake of the key and paste 
+- copy the content of the file and go to GitHub to create a new SSH key by typing the nake of the key and paste 
    the ssh key you copied previously, then click enter to save the kay on your account.
 
 ### To make sure that your key is working  
