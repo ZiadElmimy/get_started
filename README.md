@@ -53,7 +53,7 @@ Congratulations, you have added your project files to local git reository, and n
     - > $ git branch -M master
     - > $ git push -u origin master
 ------------------------------------------------------------------------------
-### To collaborate with others on a repository, You need to know more about pull request
+To collaborate with others on a repository, You need to know more about pull request
   You need pull request to modify and merge your work with the repository files you work on, and you can collaborate with the team you work on your own project or witl a remote team that open the access to modify their repository.
   And for that you fork the repository you want to modify and work on and add it to your repositpries list, modify the files and solve the issues that you want, and to tell the owner of the repository about your edits and merge it to the original one, you need to pull requeast to tell him about that, and if he approve these edits, it will be merged to the original repository.
   Also, you can push these edits or modifications into the master branch in your account or making another branch to work on something, then push it from the branch you made to the master one.
