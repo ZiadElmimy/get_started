@@ -41,18 +41,17 @@
   and you will have the filder .git 
   which contain the configuration file forn the repository
 - After that, add and commit the files of the project to the local repository by the usual command we said previosly
-    > $ git add file
-     and 
-    > $ git commit -m "put your massage here" 
+    - > $ git add file
+    - > $ git commit -m "put your massage here" 
 
 Congratulations, you have added your project files to local git reository, and now you want to push it to a remote repository, and to do that you need to do some more steps.
 
 - At first, make a new repository on GitHub for example or any website that does the same work
 - Then, you need to add a remote repository to the local repository exists and name the branch you work on, and 
   finally push the local repository to the remote.
-     > $ git remote add origin SSH_link_of_your_repository
-     > $ git branch -M master
-     > $ git push -u origin master
+    - > $ git remote add origin SSH_link_of_your_repository
+    - > $ git branch -M master
+    - > $ git push -u origin master
 ------------------------------------------------------------------------------
 To collaborate with others on a repository, You need to know more about pull request
   You need pull request to modify and merge your work with the repository files you work on, and you can collaborate with the team you work on your own project or witl a remote team that open the access to modify their repository.
