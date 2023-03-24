@@ -29,3 +29,19 @@
 - There are some steps to do that.
    - at first make sure that ssh agent is working by this command "$ eval "$(ssh-agent -s)" "
    - then check if the ssh key is working by this command "$ ssh -T git@github.com"
+------------------------------------------------------------------------------
+## To make a repository for an existing project you have
+- At first, you need to go to the folder you have project files in
+- Then, initialize a repository in this folder by using command "$ git init", and you will have the filder .git 
+  which contain the configuration file forn the repository
+- After that, add and commit the files of the project to the local repository by the usual command we said previosly
+  "$ git add file", and "$ git commit -m "put your massage here" "
+
+Congratulations, you have added your project files to local git reository, and now you want to push it to a remote repository, and to do that you need to do some more steps.
+
+- At first, make a new repository on GitHub for example or any website that does the same work
+- Then, you need to add a remote repository to the local repository exists and name the branch you work on, and 
+  finally push the local repository to the remote.
+    - "$ git remote add origin SSH_link_of_your_repository" to add the remote repository to the local one
+    - "$ git branch -M master" to name the brach to master
+    - "$ git push -u origin master" to push the local repository to the remote
