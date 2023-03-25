@@ -57,3 +57,23 @@ To collaborate with others on a repository, You need to know more about pull req
   > - You need pull request to modify and merge your work with the repository files you work on, and you can collaborate with the team you work on your own project or witl a remote team that open the access to modify their repository.
   > - And for that you fork the repository you want to modify and work on and add it to your repositpries list, modify the files and solve the issues that you want, and to tell the owner of the repository about your edits and merge it to the original one, you need to pull requeast to tell him about that, and if he approve these edits, it will be merged to the original repository.
   > - Also, you can push these edits or modifications into the master branch in your account or making another branch to work on something, then push it from the branch you made to the master one.
+------------------------------------------------------------------------------
+## To deal with different branches
+- To show your branches use this command as said previously
+  > $ git branch
+- To create a new branch, there are two ways and each of them has a function
+   - to create a brach and still in your present one
+     > $ git branch branch_name
+   - and to be directed to the new branch
+     > $ git checkout branch_name  
+   - to facilate creation and movement to the new branch
+     > $ git checkout -b branch_name
+- To delete the branch, there are two ways too
+   - to make a safe delete for the branch
+     > $ git branch -d branch_name 
+   - to force the branch to be deleted
+     > $ git branch -D branch_name
+- To rename the branch
+  > $ git branch -m new_name 
+- To merge the sub-branch to the master 
+  > $ git merge branch_name        
